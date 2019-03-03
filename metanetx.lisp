@@ -27,3 +27,27 @@
                  (get-slot-value gene 'common-name)
                  (mapcar #'get-frame-name cpd-list)
                  (mapcar #'get-common-name cpd-list)))))
+
+
+(defun get-ncbi-gene (gene)
+  (loop for dblink in (get-slot-values gene 'dblinks)
+        if (fequal (car dblink)
+                   'NCBI-GENE)
+        return (cadr dblink)))
+
+(defun ncbi-gene-to-accession-2 ()
+  (loop for gene in (gcai '|Genes|)
+        for ncbi-gene = (get-ncbi-gene gene)
+        when ncbi-gene
+        do (put-slot-value gene
+                           'accession-2
+                           (format nil "~A.1" ncbi-gene))))
+
+(defun print-ncbi-gene-to-common (filename)
+  (tofile filename
+          (format t "NCBI	CommonName~%")
+          (loop for gene in (gcai '|Genes|)
+                for ncbi-gene = (get-slot-value gene 'accession-2)
+                for common-name = (get-slot-value gene 'common-name)
+                when (and ncbi-gene common-name)
+                do (format t "~A	~A~%" ncbi-gene common-name))))

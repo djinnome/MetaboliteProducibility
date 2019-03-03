@@ -76,18 +76,18 @@ ADSL	FUM	fumarate
 ASL	FUM	fumarate
 QARS	GLN	L-glutamine
 SLC38A1	GLN	L-glutamine
-GCLM	GLT,CYS	L-glutamate,L-cysteine
-GCLC	GLT,CYS	L-glutamate,L-cysteine
+GCLM	GLT // CYS	L-glutamate // L-cysteine
+GCLC	GLT // CYS	L-glutamate // L-cysteine
 NAGS	GLT	L-glutamate
 FTCD	GLT	L-glutamate
 FPGS	GLT	L-glutamate
-PPAT	GLT,GLN	L-glutamate,L-glutamine
+PPAT	GLT // GLN	L-glutamate // L-glutamine
 GAD1	GLT	L-glutamate
 GAD2	GLT	L-glutamate
 RIMKLA	GLT	L-glutamate
-GLUD1	GLT,2-KETOGLUTARATE	L-glutamate,2-oxoglutarate
-GLUD2	GLT,2-KETOGLUTARATE	L-glutamate,2-oxoglutarate
-GLUL	GLT,GLN	L-glutamate,L-glutamine
+GLUD1	GLT // 2-KETOGLUTARATE	L-glutamate // 2-oxoglutarate
+GLUD2	GLT // 2-KETOGLUTARATE	L-glutamate // 2-oxoglutarate
+GLUL	GLT // GLN	L-glutamate // L-glutamine
 ALDH18A1	GLT	L-glutamate
 EARS2	GLT	L-glutamate
 ENPEP	GLT	L-glutamate
@@ -95,31 +95,31 @@ FOLH1	GLT	L-glutamate
 NAALADL1	GLT	L-glutamate
 NAALAD2	GLT	L-glutamate
 FOLH1B	GLT	L-glutamate
-GLS2	GLT,GLN	L-glutamate,L-glutamine
-GLS1	GLT,GLN	L-glutamate,L-glutamine
+GLS2	GLT // GLN	L-glutamate // L-glutamine
+GLS1	GLT // GLN	L-glutamate // L-glutamine
 ALDH4A1	GLT	L-glutamate
-PET112L	GLT,GLN	L-glutamate,L-glutamine
-QRSL1	GLT,GLN	L-glutamate,L-glutamine
-SLC7A11	GLT,CYSTINE	L-glutamate,L-cystine
+PET112L	GLT // GLN	L-glutamate // L-glutamine
+QRSL1	GLT // GLN	L-glutamate // L-glutamine
+SLC7A11	GLT // CYSTINE	L-glutamate // L-cystine
 GGT2	GLT	L-glutamate
 ggt	GLT	L-glutamate
-OPLAH	GLT,5-OXOPROLINE	L-glutamate,5-oxo-L-proline
-CTPS1	GLT,GLN	L-glutamate,L-glutamine
-CTPS2	GLT,GLN	L-glutamate,L-glutamine
-PFAS	GLT,GLN	L-glutamate,L-glutamine
-GMPS	GLT,GLN	L-glutamate,L-glutamine
-NADSYN1	GLT,GLN	L-glutamate,L-glutamine
+OPLAH	GLT // 5-OXOPROLINE	L-glutamate // 5-oxo-L-proline
+CTPS1	GLT // GLN	L-glutamate // L-glutamine
+CTPS2	GLT // GLN	L-glutamate // L-glutamine
+PFAS	GLT // GLN	L-glutamate // L-glutamine
+GMPS	GLT // GLN	L-glutamate // L-glutamine
+NADSYN1	GLT // GLN	L-glutamate // L-glutamine
 SLC17A6	GLT	L-glutamate
 SLC17A8	GLT	L-glutamate
 SLC17A7	GLT	L-glutamate
 SLC1A3	GLT	L-glutamate
 GGT5	GLT	L-glutamate
 GGT1		
-AADAT	GLT,2-KETOGLUTARATE	L-glutamate,2-oxoglutarate
-ABAT	GLT,2-KETOGLUTARATE	L-glutamate,2-oxoglutarate
-PSAT1	GLT,2-KETOGLUTARATE	L-glutamate,2-oxoglutarate
-GFPT1	GLT,GLN	L-glutamate,L-glutamine
-GFPT2	GLT,GLN	L-glutamate,L-glutamine
+AADAT	GLT // 2-KETOGLUTARATE	L-glutamate // 2-oxoglutarate
+ABAT	GLT // 2-KETOGLUTARATE	L-glutamate // 2-oxoglutarate
+PSAT1	GLT // 2-KETOGLUTARATE	L-glutamate // 2-oxoglutarate
+GFPT1	GLT // GLN	L-glutamate // L-glutamine
+GFPT2	GLT // GLN	L-glutamate // L-glutamine
 GK	GLYCEROL	glycerol
 GK3P	GLYCEROL	glycerol
 GK2	GLYCEROL	glycerol
@@ -142,45 +142,45 @@ AARS2	L-ALPHA-ALANINE	L-alanine
 AARS	L-ALPHA-ALANINE	L-alanine
 ANPEP	L-ALPHA-ALANINE	L-alanine
 NPEPPS	L-ALPHA-ALANINE	L-alanine
-MOCOS	L-ALPHA-ALANINE,CYS	L-alanine,L-cysteine
+MOCOS	L-ALPHA-ALANINE // CYS	L-alanine // L-cysteine
 SCLY	L-ALPHA-ALANINE	L-alanine
-CNDP2	L-ALPHA-ALANINE,CYS	L-alanine,L-cysteine
-NFS1	L-ALPHA-ALANINE,CYS	L-alanine,L-cysteine
+CNDP2	L-ALPHA-ALANINE // CYS	L-alanine // L-cysteine
+NFS1	L-ALPHA-ALANINE // CYS	L-alanine // L-cysteine
 KYNU	L-ALPHA-ALANINE	L-alanine
 ADSS	L-ASPARTATE	L-aspartate
 ADSSL1	L-ASPARTATE	L-aspartate
-CAD	L-ASPARTATE,GLT,GLN	L-aspartate,L-glutamate,L-glutamine
+CAD	L-ASPARTATE // GLT // GLN	L-aspartate // L-glutamate // L-glutamine
 PAICS	L-ASPARTATE	L-aspartate
 ASS1	L-ASPARTATE	L-aspartate
 ASPDH	L-ASPARTATE	L-aspartate
-GOT1	L-ASPARTATE,GLT,CYS,2-KETOGLUTARATE	L-aspartate,L-glutamate,L-cysteine,2-oxoglutarate
-GOT1L1	L-ASPARTATE,GLT,2-KETOGLUTARATE	L-aspartate,L-glutamate,2-oxoglutarate
-ASNS	L-ASPARTATE,GLT,GLN,ASN	L-aspartate,L-glutamate,L-glutamine,L-asparagine
-GOT2	L-ASPARTATE,GLT,2-KETOGLUTARATE	L-aspartate,L-glutamate,2-oxoglutarate
+GOT1	L-ASPARTATE // GLT // CYS // 2-KETOGLUTARATE	L-aspartate // L-glutamate // L-cysteine // 2-oxoglutarate
+GOT1L1	L-ASPARTATE // GLT // 2-KETOGLUTARATE	L-aspartate // L-glutamate // 2-oxoglutarate
+ASNS	L-ASPARTATE // GLT // GLN // ASN	L-aspartate // L-glutamate // L-glutamine // L-asparagine
+GOT2	L-ASPARTATE // GLT // 2-KETOGLUTARATE	L-aspartate // L-glutamate // 2-oxoglutarate
 DARS	L-ASPARTATE	L-aspartate
 DARS2	L-ASPARTATE	L-aspartate
 DNPEP	L-ASPARTATE	L-aspartate
 AGA	L-ASPARTATE	L-aspartate
-ASRGL1	L-ASPARTATE,ASN	L-aspartate,L-asparagine
-ASPG	L-ASPARTATE,ASN	L-aspartate,L-asparagine
+ASRGL1	L-ASPARTATE // ASN	L-aspartate // L-asparagine
+ASPG	L-ASPARTATE // ASN	L-aspartate // L-asparagine
 DPEP3	L-ASPARTATE	L-aspartate
-SLC1A6	L-ASPARTATE,GLT	L-aspartate,L-glutamate
-SLC1A1	L-ASPARTATE,GLT	L-aspartate,L-glutamate
-SLC1A2	L-ASPARTATE,GLT	L-aspartate,L-glutamate
+SLC1A6	L-ASPARTATE // GLT	L-aspartate // L-glutamate
+SLC1A1	L-ASPARTATE // GLT	L-aspartate // L-glutamate
+SLC1A2	L-ASPARTATE // GLT	L-aspartate // L-glutamate
 ASPA	L-ASPARTATE	L-aspartate
 ACY3	L-ASPARTATE	L-aspartate
 OTC	L-ORNITHINE	L-ornithine
 ODC1	L-ORNITHINE	L-ornithine
-OAT	L-ORNITHINE,GLT,2-KETOGLUTARATE	L-ornithine,L-glutamate,2-oxoglutarate
+OAT	L-ORNITHINE // GLT // 2-KETOGLUTARATE	L-ornithine // L-glutamate // 2-oxoglutarate
 SLC25A15	L-ORNITHINE	L-ornithine
 SLC25A2	L-ORNITHINE	L-ornithine
 GATM	L-ORNITHINE	L-ornithine
 LARS2	LEU	L-leucine
 LARS	LEU	L-leucine
-SLC7A6	LEU,GLN	L-leucine,L-glutamine
+SLC7A6	LEU // GLN	L-leucine // L-glutamine
 NIL	LYS	L-lysine
 KARS	LYS	L-lysine
-AASS	LYS,GLT,2-KETOGLUTARATE	L-lysine,L-glutamate,2-oxoglutarate
+AASS	LYS // GLT // 2-KETOGLUTARATE	L-lysine // L-glutamate // 2-oxoglutarate
 GANC	MALTOSE	maltose
 NIL	MALTOSE	maltose
 AMY1A	MALTOSE	maltose
@@ -201,33 +201,33 @@ METAP2	MET	L-methionine
 MTR	MET	L-methionine
 BHMT2	MET	L-methionine
 BHMT	MET	L-methionine
-ACSM6	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSL6	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSM5	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSM1	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSM3	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSM4	PALMITATE,OLEATE-CPD	palmitate,oleate
+ACSM6	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSL6	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSM5	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSM1	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSM3	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSM4	PALMITATE // OLEATE-CPD	palmitate // oleate
 FAAH2	OLEATE-CPD	oleate
 FAAH	OLEATE-CPD	oleate
-OLAH	PALMITATE,OLEATE-CPD,CPD-7836	palmitate,oleate,myristate
-ACSBG1	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSBG2	PALMITATE,OLEATE-CPD	palmitate,oleate
-SLC27A2	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSL4	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSL3	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSL5	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACSL1	PALMITATE,OLEATE-CPD	palmitate,oleate
-CES1	PALMITATE,CPD-110	palmitate,salicylate
-CES2	PALMITATE,CPD-110	palmitate,salicylate
-CES8	PALMITATE,CPD-110	palmitate,salicylate
-CES7	PALMITATE,CPD-110	palmitate,salicylate
-FASN	PALMITATE,OLEATE-CPD	palmitate,oleate
-ACOT7	PALMITATE,OLEATE-CPD,CPD-7836	palmitate,oleate,myristate
+OLAH	PALMITATE // OLEATE-CPD // CPD-7836	palmitate // oleate // myristate
+ACSBG1	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSBG2	PALMITATE // OLEATE-CPD	palmitate // oleate
+SLC27A2	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSL4	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSL3	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSL5	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACSL1	PALMITATE // OLEATE-CPD	palmitate // oleate
+CES1	PALMITATE // CPD-110	palmitate // salicylate
+CES2	PALMITATE // CPD-110	palmitate // salicylate
+CES8	PALMITATE // CPD-110	palmitate // salicylate
+CES7	PALMITATE // CPD-110	palmitate // salicylate
+FASN	PALMITATE // OLEATE-CPD	palmitate // oleate
+ACOT7	PALMITATE // OLEATE-CPD // CPD-7836	palmitate // oleate // myristate
 NIL	PALMITATE	palmitate
 NIL	PALMITATE	palmitate
-ACOT8	PALMITATE,CPD-7836	palmitate,myristate
-ACOT2	PALMITATE,OLEATE-CPD,CPD-7836	palmitate,oleate,myristate
-ACOT4	PALMITATE,OLEATE-CPD,CPD-7836	palmitate,oleate,myristate
+ACOT8	PALMITATE // CPD-7836	palmitate // myristate
+ACOT2	PALMITATE // OLEATE-CPD // CPD-7836	palmitate // oleate // myristate
+ACOT4	PALMITATE // OLEATE-CPD // CPD-7836	palmitate // oleate // myristate
 ACOT7L	PALMITATE	palmitate
 PPT1	PALMITATE	palmitate
 PPT2	PALMITATE	palmitate
@@ -237,19 +237,19 @@ FARS2	PHE	L-phenylalanine
 PYCRL	PRO	L-proline
 P5CR2	PRO	L-proline
 PYCR1	PRO	L-proline
-EPRS	PRO,GLT	L-proline,L-glutamate
+EPRS	PRO // GLT	L-proline // L-glutamate
 PARS2	PRO	L-proline
 LAP3	PRO	L-proline
 NIL	PRO	L-proline
 PRODH	PRO	L-proline
 PEPD	PRO	L-proline
-SLC36A1	PRO,L-ALPHA-ALANINE	L-proline,L-alanine
+SLC36A1	PRO // L-ALPHA-ALANINE	L-proline // L-alanine
 SLC6A7	PRO	L-proline
 PKM2	PYRUVATE	pyruvate
 PKLR	PYRUVATE	pyruvate
-TYW1	PYRUVATE,MET	pyruvate,L-methionine
+TYW1	PYRUVATE // MET	pyruvate // L-methionine
 DLAT	PYRUVATE	pyruvate
-DLD	PYRUVATE,2-KETOGLUTARATE	pyruvate,2-oxoglutarate
+DLD	PYRUVATE // 2-KETOGLUTARATE	pyruvate // 2-oxoglutarate
 PDHA2	PYRUVATE	pyruvate
 PDHA1	PYRUVATE	pyruvate
 PDHB	PYRUVATE	pyruvate
@@ -265,11 +265,11 @@ MPC2	PYRUVATE	pyruvate
 VDAC1	PYRUVATE	pyruvate
 VDAC2	PYRUVATE	pyruvate
 VDAC3	PYRUVATE	pyruvate
-CCBL1	PYRUVATE,PHE,MET,GLT,GLN,2-KETOGLUTARATE,2-AMINOACRYLATE	pyruvate,L-phenylalanine,L-methionine,L-glutamate,L-glutamine,2-oxoglutarate,2-aminoprop-2-enoate
-CCBL2	PYRUVATE,GLT,2-KETOGLUTARATE,2-AMINOACRYLATE	pyruvate,L-glutamate,2-oxoglutarate,2-aminoprop-2-enoate
-CTH	PYRUVATE,CYS,2-AMINOACRYLATE	pyruvate,L-cysteine,2-aminoprop-2-enoate
-GPT	PYRUVATE,L-ALPHA-ALANINE,GLT,2-KETOGLUTARATE	pyruvate,L-alanine,L-glutamate,2-oxoglutarate
-GPT2	PYRUVATE,L-ALPHA-ALANINE,GLT,2-KETOGLUTARATE	pyruvate,L-alanine,L-glutamate,2-oxoglutarate
+CCBL1	PYRUVATE // PHE // MET // GLT // GLN // 2-KETOGLUTARATE // 2-AMINOACRYLATE	pyruvate // L-phenylalanine // L-methionine // L-glutamate // L-glutamine // 2-oxoglutarate // 2-aminoprop-2-enoate
+CCBL2	PYRUVATE // GLT // 2-KETOGLUTARATE // 2-AMINOACRYLATE	pyruvate // L-glutamate // 2-oxoglutarate // 2-aminoprop-2-enoate
+CTH	PYRUVATE // CYS // 2-AMINOACRYLATE	pyruvate // L-cysteine // 2-aminoprop-2-enoate
+GPT	PYRUVATE // L-ALPHA-ALANINE // GLT // 2-KETOGLUTARATE	pyruvate // L-alanine // L-glutamate // 2-oxoglutarate
+GPT2	PYRUVATE // L-ALPHA-ALANINE // GLT // 2-KETOGLUTARATE	pyruvate // L-alanine // L-glutamate // 2-oxoglutarate
 NPL	PYRUVATE	pyruvate
 LDHD	PYRUVATE	pyruvate
 SLC16A1	PYRUVATE	pyruvate
@@ -279,8 +279,8 @@ HOGA1	PYRUVATE	pyruvate
 ME1	PYRUVATE	pyruvate
 ME3	PYRUVATE	pyruvate
 ME2	PYRUVATE	pyruvate
-AGXT2	PYRUVATE,L-ALPHA-ALANINE	pyruvate,L-alanine
-AGXT1	SER,PYRUVATE,L-ALPHA-ALANINE	L-serine,pyruvate,L-alanine
+AGXT2	PYRUVATE // L-ALPHA-ALANINE	pyruvate // L-alanine
+AGXT1	SER // PYRUVATE // L-ALPHA-ALANINE	L-serine // pyruvate // L-alanine
 PTDSS2	SER	L-serine
 SPTLC2	SER	L-serine
 SPTSSA	SER	L-serine
@@ -292,10 +292,10 @@ SHMT2	SER	L-serine
 SHMT1	SER	L-serine
 SARS	SER	L-serine
 SARS2	SER	L-serine
-CBS	SER,CYS	L-serine,L-cysteine
+CBS	SER // CYS	L-serine // L-cysteine
 PSPH	SER	L-serine
 VPS29	SER	L-serine
-SLC38A5	SER,L-ALPHA-ALANINE,GLN,ASN	L-serine,L-alanine,L-glutamine,L-asparagine
+SLC38A5	SER // L-ALPHA-ALANINE // GLN // ASN	L-serine // L-alanine // L-glutamine // L-asparagine
 SMS	SPERMIDINE	spermidine
 SAT2	SPERMIDINE	spermidine
 SAT1	SPERMIDINE	spermidine
@@ -305,33 +305,33 @@ AOC3	SPERMIDINE	spermidine
 SRM	SPERMIDINE	spermidine
 SMOX	SPERMIDINE	spermidine
 SI	SUCROSE	sucrose
-SDS	THR,SER,PYRUVATE,2-AMINOACRYLATE	L-threonine,L-serine,pyruvate,2-aminoprop-2-enoate
-SDSL	THR,SER,2-AMINOACRYLATE	L-threonine,L-serine,2-aminoprop-2-enoate
+SDS	THR // SER // PYRUVATE // 2-AMINOACRYLATE	L-threonine // L-serine // pyruvate // 2-aminoprop-2-enoate
+SDSL	THR // SER // 2-AMINOACRYLATE	L-threonine // L-serine // 2-aminoprop-2-enoate
 TARS2	THR	L-threonine
 TARS	THR	L-threonine
 TARSL2	THR	L-threonine
-SLC1A4	THR,SER,L-ALPHA-ALANINE,CYS	L-threonine,L-serine,L-alanine,L-cysteine
-TAT	TYR,GLT,2-KETOGLUTARATE	L-tyrosine,L-glutamate,2-oxoglutarate
+SLC1A4	THR // SER // L-ALPHA-ALANINE // CYS	L-threonine // L-serine // L-alanine // L-cysteine
+TAT	TYR // GLT // 2-KETOGLUTARATE	L-tyrosine // L-glutamate // 2-oxoglutarate
 TTL	TYR	L-tyrosine
 IYD	TYR	L-tyrosine
 TYR	TYR	L-tyrosine
 YARS	TYR	L-tyrosine
 YARS2	TYR	L-tyrosine
 TH	TYR	L-tyrosine
-PAH	TYR,PHE	L-tyrosine,L-phenylalanine
-SLC7A5	TYR,PHE,LEU	L-tyrosine,L-phenylalanine,L-leucine
-SLC3A2	TYR,PHE,LEU,GLT,GLN,CYSTINE	L-tyrosine,L-phenylalanine,L-leucine,L-glutamate,L-glutamine,L-cystine
+PAH	TYR // PHE	L-tyrosine // L-phenylalanine
+SLC7A5	TYR // PHE // LEU	L-tyrosine // L-phenylalanine // L-leucine
+SLC3A2	TYR // PHE // LEU // GLT // GLN // CYSTINE	L-tyrosine // L-phenylalanine // L-leucine // L-glutamate // L-glutamine // L-cystine
 SLC14A2	UREA	urea
 SLC14A1	UREA	urea
 ALLC	UREA	urea
-ARG1	UREA,L-ORNITHINE	urea,L-ornithine
-ARG2	UREA,L-ORNITHINE	urea,L-ornithine
+ARG1	UREA // L-ORNITHINE	urea // L-ornithine
+ARG2	UREA // L-ORNITHINE	urea // L-ornithine
 AGMAT	UREA	urea
-BCAT1	VAL,LEU,ILE,GLT,2-KETOGLUTARATE	L-valine,L-leucine,L-isoleucine,L-glutamate,2-oxoglutarate
-BCAT2	VAL,LEU,ILE,GLT,2-KETOGLUTARATE	L-valine,L-leucine,L-isoleucine,L-glutamate,2-oxoglutarate
+BCAT1	VAL // LEU // ILE // GLT // 2-KETOGLUTARATE	L-valine // L-leucine // L-isoleucine // L-glutamate // 2-oxoglutarate
+BCAT2	VAL // LEU // ILE // GLT // 2-KETOGLUTARATE	L-valine // L-leucine // L-isoleucine // L-glutamate // 2-oxoglutarate
 VARS	VAL	L-valine
 VARS2	VAL	L-valine
-SLC6A18	VAL,SER,MET,LEU,L-ALPHA-ALANINE,ILE	L-valine,L-serine,L-methionine,L-leucine,L-alanine,L-isoleucine
+SLC6A18	VAL // SER // MET // LEU // L-ALPHA-ALANINE // ILE	L-valine // L-serine // L-methionine // L-leucine // L-alanine // L-isoleucine
 SORD	XYLITOL	xylitol
 NIL	XYLITOL	xylitol
 NIL	XYLITOL	xylitol
