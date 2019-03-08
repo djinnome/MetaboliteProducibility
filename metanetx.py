@@ -2,7 +2,7 @@ import pandas as pd
 
 def convert_db(fromdb, todb,chemxref='https://www.metanetx.org/cgi-bin/mnxget/mnxref/chem_xref.tsv' ):
     if type(chemxref) is str:
-        chemxref = pd.read_table(chemxref,comment='#',   names='XREF	MNX_ID	Evidence	Description'.split('\t'))
+        chemxref = pd.read_csv(chemxref,sep='\t',comment='#',   names='XREF	MNX_ID	Evidence	Description'.split('\t'))
     fromxref = chemxref[chemxref['XREF'].str.contains(fromdb + ':')]
     fromcol = fromxref['XREF'].str.split(':',expand=True)[1].copy()
     fromxref.loc[:,fromdb] = fromcol
